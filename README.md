@@ -1,14 +1,3 @@
-手动写snort规则偶尔出错，想对于简单的get，post包过滤写个自动生成工具
+小米路由器sn码计算ssh密码python版本（网上大多数是在线js版，懒得自己弄npm的，直接用ai改成python代码可本地运行）
 
-metadata:service http;
-
-content:"GET";http_method;
-content:"POST";http_method;
-
-content:"/xxxx/url";http_uri;
-
-content:"";http_client_body;
-
-flow:to_server;established;
-
-offset左起偏移量:2; depth搜索长度:2;
+使用方法：.\SN2sshpasswd.py SN码
